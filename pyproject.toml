@@ -1,0 +1,12 @@
+[project]
+name = "adafruit_ft232h"
+version = "0.1.0"
+requires-python = ">=3.8"
+dependencies = [
+    "adafruit-blinka",
+    "adafruit-circuitpython-charlcd",
+    "pygame>=2.6.1",
+]
+
+[tool.uv.sources]
+adafruit-circuitpython-charlcd = { git = "https://github.com/adafruit/Adafruit_CircuitPython_CharLCD.git" }
